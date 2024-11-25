@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      
+    }
+  }
+  .angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    background-color:#C7FFCC;
+  }
+  header{
+    position:fixed;
+    top:0;
+    width:100%;
+    line-height:50px;
+    background-color:grey;
+    text-align:center;
+  }
+  #title{
+  font-family:Angkor, Arial, sans-serif;
+  color:#3D96FF;
+  font-size:1.2em;
+  }
+  #header-img{
+    height:100%;
+  }
+  #nav-bar{
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+  }
+  #nav-links{
+    display:flex;
+    width:80%;
+    justify-content:space-around;
+  }
+  #nav-links a{
+    color:red;
+    text-decoration:none;
+    font-family:Open Sans;
+    font-size:1em;
+    font-weight:bold;
+  }
+  #nav-links a:hover{
+    color:#33DAFF;
+  }
+  body{
+    padding-top:80px;
+    text-align:center;
+  }
+  #store-description{
+    display: flex;
+    justify-content: center;
+  }
+  #benefit-description{
+    font-family:Open Sans;
+    font-size:14px;
+  }
+  .content{
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    padding: 0 20px;
+  }
+  #form{
+    padding:10px 0;
+  }
+  #email{
+    min-width: 200px;
+    padding: 5px 5px;
+    margin: 15px 0;
+    font-family:Open Sans;
+  }
+  #submit{
+    font-weight:bold;
+    background-color:orange;
+    font-family:Open Sans;
+    color:white;
+    text-align:center;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    padding:10px 20px;
+  }
+  #submit:hover{
+  color:#33DAFF;
+  }
+  #product-video{
+    padding:20px 0;
+    display:flex;
+    justify-content:center;
+  }
+  #video{
+    width:100%;
+  }
+  #pricing{
+    padding:50px 0;
+    display:flex;
+    justify-content:center;
+  }
+  .price-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  .mushroom{
+    width:200px;
+    height:480px;
+    border:1px solid red;
+    background-color:#FFEAA0;
+    display: flex;
+    flex-flow: column;
+    margin:0px 15px;
+  }
+  .mushroom-heading{
+    background-color:orange;
+    font-weight:bold;
+    color:blue;
+    padding:10px 0px;
+    font-family:Lilita One;
+  }
+  .mushroom-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .description{
+    font-family:Open Sans;
+    font-size:14px;
+  }
+  #perks{
+    font-family:Open Sans;
+    font-size:14px;
+  }
+  .price-text{
+    font-weight:bold;
+    font-family:Open Sans;
+    font-size:20px;
+    margin: 10px 0;
+  }
+  .purchase-btn{
+    margin:10px 0;
+    color:white;
+    padding:15px 15px;
+    text-align:center;
+    cursor:pointer;
+    display:inline-block;
+    font-family:Open Sans;
+    font-size:16px;
+    background-color:orange;
+    border-radius:8px;
+    font-weight:bold;
+  }
+  .purchase-btn:hover{
+    color:#33DAFF;
+  }
+  #footer{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    background-color:grey;
+    width:100%;
+    padding:5px 0;
+    line-height:1.5em;
+  }
